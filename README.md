@@ -1,4 +1,4 @@
-# About CuPyTS {#About}
+# About CuPyTS
 - Cu = Copper : I like naming projects after elements fight me
 - Py = Writen in python
 - TS = Tool Set
