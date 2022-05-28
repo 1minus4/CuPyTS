@@ -13,11 +13,8 @@
 
 test
 : test 2
-
-bruh he on that H~2~0
-you lookin like an a^2^ + b^2^ = c^2^
-
-## ToDo list
+test 3
+: test 4
 - [x] technically works
 - [ ] port existing modules to current version
 - [ ] better code
