@@ -3,6 +3,8 @@
 - Py = Writen in python
 - TS = Tool Set [^1]
 
+[Replit link for those wanting to try it](https://replit.com/@TitanP0wered/CuPyTS)
+
 ## Basic Commands
 | command | what it does |
 | -- | -- |
