@@ -16,7 +16,7 @@
 - [ ] port existing modules to current version
 - [ ] better code
 
-# Other notes that don't belong anywhere else
+### Other notes that don't belong anywhere else
 I'm kinda stupid so feel free to put forward
 any pull requests where something actually works for once.
 
