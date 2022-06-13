@@ -25,8 +25,10 @@ class ts:
 
 class prop: # (pr)ogram (op)ener
 	def prStr(prName): # all tools
-		print("ye")
-		if progSelStr == "calc":
+		if progSelStr == "ls":
+			ts.timestamp(1)
+			ls.list()
+		elif progSelStr == "calc":
 				ts.timestamp(2)
 				print("calculator")
 				ts.timestamp(3)
@@ -36,11 +38,9 @@ class prop: # (pr)ogram (op)ener
 			print("you stupid")
 		else:
 			pass
+			# wacky woo hoo features
 		if progSelStr == "cl":
 			instance.ClearConsole()
-		elif progSelStr == "ls":
-			ts.timestamp(1)
-			ls.list()
 		else:
 			prop.prStr(progSelStr)
 
