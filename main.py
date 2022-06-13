@@ -24,6 +24,13 @@ class ts:
 		f.close()
 
 class prop: # (pr)ogram (op)ener
+	def prStr(prName): # all tools
+		print("ye")
+		if progSelStr == "calc":
+				ts.timestamp(2)
+				print("calculator")
+				ts.timestamp(3)
+			
 	def prSel(progSelInt): # (prog)ram (sel)ect
 		if progSelStr not in programList:
 			print("you stupid")
@@ -34,10 +41,8 @@ class prop: # (pr)ogram (op)ener
 		elif progSelStr == "ls":
 			ts.timestamp(1)
 			ls.list()
-		elif progSelStr == "calc":
-			ts.timestamp(2)
-			print("calculator")
-			ts.timestamp(3)
+		else:
+			prop.prStr(progSelStr)
 
 cont = True
 while cont == True:
